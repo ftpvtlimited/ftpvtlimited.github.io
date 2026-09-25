@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Preview build: configure your verified domain and rebuild for production.

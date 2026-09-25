@@ -1,0 +1,11 @@
+{
+  "name": "ft-pvt-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static FT PVT. LIMITED website for All Document Reader",
+  "scripts": {
+    "build": "python build.py",
+    "preview": "python serve.py",
+    "verify": "python verify.py"
+  }
+}

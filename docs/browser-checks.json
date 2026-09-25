@@ -1,0 +1,603 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/apps/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/apps/all-document-reader/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/about/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/support/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/privacy-policy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/terms-and-conditions/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/apps/all-document-reader/privacy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/404.html",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/apps/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/apps/all-document-reader/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/about/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/support/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/privacy-policy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/terms-and-conditions/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/apps/all-document-reader/privacy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "route": "/404.html",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/apps/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/apps/all-document-reader/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/about/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/support/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/privacy-policy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/terms-and-conditions/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/apps/all-document-reader/privacy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/404.html",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/apps/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/apps/all-document-reader/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/about/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/support/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/privacy-policy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/terms-and-conditions/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/apps/all-document-reader/privacy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/404.html",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/apps/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/apps/all-document-reader/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/about/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/support/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/privacy-policy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/terms-and-conditions/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/apps/all-document-reader/privacy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 360,
+      "route": "/404.html",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/apps/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/apps/all-document-reader/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/about/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/support/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/privacy-policy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/terms-and-conditions/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/apps/all-document-reader/privacy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/404.html",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "redirect": "/privacy/",
+      "target": "/privacy-policy/"
+    },
+    {
+      "engine": "chromium",
+      "redirect": "/terms/",
+      "target": "/terms-and-conditions/"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/apps/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/apps/all-document-reader/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/about/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/support/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/privacy-policy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/terms-and-conditions/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/apps/all-document-reader/privacy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/404.html",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/apps/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/apps/all-document-reader/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/about/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/support/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/privacy-policy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/terms-and-conditions/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/apps/all-document-reader/privacy/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/404.html",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "engine": "webkit",
+      "redirect": "/privacy/",
+      "target": "/privacy-policy/"
+    },
+    {
+      "engine": "webkit",
+      "redirect": "/terms/",
+      "target": "/terms-and-conditions/"
+    }
+  ],
+  "errors": [],
+  "unavailable": [],
+  "resolvedIssues": [
+    "WebKit skipped the implicit link tab stop. Added explicit tabindex=0 to Skip to content and verified first Tab plus Enter focus transfer in both engines."
+  ],
+  "targetedRetest": [
+    {
+      "engine": "chromium",
+      "skipLink": "passed after explicit tabindex=0",
+      "faqKeyboardToggles": 24,
+      "mobileNavigation": "passed"
+    },
+    {
+      "engine": "webkit",
+      "skipLink": "passed after explicit tabindex=0",
+      "faqKeyboardToggles": 24,
+      "mobileNavigation": "passed"
+    }
+  ]
+}

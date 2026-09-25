@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://localhost:4173/</loc></url>
+  <url><loc>http://localhost:4173/apps/</loc></url>
+  <url><loc>http://localhost:4173/apps/all-document-reader/</loc></url>
+  <url><loc>http://localhost:4173/about/</loc></url>
+  <url><loc>http://localhost:4173/contact/</loc></url>
+  <url><loc>http://localhost:4173/support/</loc></url>
+  <url><loc>http://localhost:4173/privacy-policy/</loc></url>
+  <url><loc>http://localhost:4173/terms-and-conditions/</loc></url>
+  <url><loc>http://localhost:4173/apps/all-document-reader/privacy/</loc></url>
+</urlset>

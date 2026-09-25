@@ -1,0 +1,6 @@
+{
+  "site_url": "",
+  "download_url": "",
+  "supported_formats": ["PDF", "DOC", "DOCX", "XLS", "XLSX", "PPT", "PPTX", "TXT"],
+  "formats_confirmed": true
+}

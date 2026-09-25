@@ -1,0 +1,7 @@
+{
+  "canonical_pages": 9,
+  "open_graph_urls": 9,
+  "sitemap_origin": "passed with isolated non-routable test origin",
+  "robots_production": "passed",
+  "production_without_domain": "blocked as intended"
+}
