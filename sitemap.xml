@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://ftpvtlimited.github.io/</loc></url>
-  <url><loc>https://ftpvtlimited.github.io/apps/</loc></url>
-  <url><loc>https://ftpvtlimited.github.io/apps/all-document-reader/</loc></url>
-  <url><loc>https://ftpvtlimited.github.io/about/</loc></url>
-  <url><loc>https://ftpvtlimited.github.io/contact/</loc></url>
-  <url><loc>https://ftpvtlimited.github.io/support/</loc></url>
-  <url><loc>https://ftpvtlimited.github.io/privacy-policy/</loc></url>
-  <url><loc>https://ftpvtlimited.github.io/terms-and-conditions/</loc></url>
+  <url><loc>https://ftpvtlimited.github.io/apps.html</loc></url>
+  <url><loc>https://ftpvtlimited.github.io/apps.html?app=all-document-reader</loc></url>
+  <url><loc>https://ftpvtlimited.github.io/apps.html?app=vape-less</loc></url>
+  <url><loc>https://ftpvtlimited.github.io/privacy.html</loc></url>
+  <url><loc>https://ftpvtlimited.github.io/terms.html</loc></url>
   <url><loc>https://ftpvtlimited.github.io/apps/all-document-reader/privacy/</loc></url>
+  <url><loc>https://ftpvtlimited.github.io/apps/vape-less/privacy/</loc></url>
 </urlset>
