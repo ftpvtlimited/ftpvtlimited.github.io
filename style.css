@@ -302,3 +302,21 @@ body { background: radial-gradient(ellipse at 0 0,#eae8ff 0,transparent 35%),rad
 .table-scroll{overflow-x:auto;margin:24px 0}.table-scroll table{border-collapse:collapse;min-width:480px;width:100%;font-size:.9rem}.table-scroll th,.table-scroll td{padding:12px;border:1px solid #dce3ed;text-align:left;vertical-align:top}.table-scroll th{background:#edf0ff}
 .legal-body { min-width:0; } .table-scroll { max-width:100%; }
 
+
+/* Homepage sliders stay compact as the app collection grows. */
+.hero-grid>*,.trust-panel>*,.slider-shell{min-width:0;}
+.slider-shell .slider-controls{margin-bottom:12px;}
+.showcase-list.app-slider,.trust-links.app-slider{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;padding:5px 0 16px;scrollbar-width:thin;scrollbar-color:#aaa8e8 transparent;}
+.showcase-list.app-slider>.spotlight,.trust-links.app-slider>.trust-link{flex:0 0 100%;min-width:0;scroll-snap-align:start;}
+.trust-links.app-slider>.trust-link{min-height:180px;padding:30px;background:linear-gradient(135deg,#fff,#ecf7ff);border:1px solid #bedbdc;border-radius:24px;font-size:1.2rem;}
+.trust-links.app-slider>.trust-link:nth-child(3n+2){background:linear-gradient(135deg,#fff,#f2e5ff);}
+.trust-links.app-slider>.trust-link:nth-child(3n){background:linear-gradient(135deg,#fff,#fff1d6);}
+.showcase{background:linear-gradient(135deg,#e1e5ff,#f2e0fa 70%,#ffe9df);border-color:#dcd2f4;box-shadow:0 20px 65px #8175bb14;}
+.trust-panel{background:linear-gradient(120deg,#dff4ec,#e6efff);}
+.about-panel{background:linear-gradient(120deg,#ece2ff,#ffecef);}
+.intro-strip .mini-icon{background:#e7defb;color:#7354c8;}
+.hero em{color:#6550df;}
+.spotlight-info>div{min-width:0;overflow-wrap:anywhere;}
+.spotlight-info .app-icon{flex-shrink:0;}
+#app-catalog{overflow:visible;}
+@media(max-width:600px){.trust-links.app-slider>.trust-link{min-height:150px;padding:22px;}.showcase .slider-controls{font-size:.75rem;}.showcase-top{flex-wrap:wrap;}}

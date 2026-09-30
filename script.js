@@ -24,7 +24,7 @@ function icon(app) {
 function detailsUrl(app) { return safeUrl(app.pageUrl) || `/apps/?app=${encodeURIComponent(app.id)}`; }
 function card(app) {
   const privacy = safeUrl(app.privacyUrl);
-  return `<article class="app-card ${escapeHTML(app.color || "blue")}"><div class="card-art">${icon(app)}${app.platform ? `<span class="platform">${escapeHTML(app.platform)}</span>` : ""}</div><div class="app-copy"><span class="category">${escapeHTML(app.category || "Mobile app")}${app.status ? ` · ${escapeHTML(app.status)}` : ""}</span><h3>${escapeHTML(app.name)}</h3><p>${escapeHTML(app.description)}</p><div class="card-links"><a class="btn" href="${detailsUrl(app)}" aria-label="View details for ${escapeHTML(app.name)}">View details <span aria-hidden="true">↗</span></a>${privacy ? `<a href="${escapeHTML(privacy)}" aria-label="Privacy policy for ${escapeHTML(app.name)}">Privacy policy</a>` : ""}</div>${storeButtons(app)}</div></article>`;
+  return `<article class="app-card ${escapeHTML(app.color || "blue")}"><div class="card-art">${icon(app)}</div><div class="app-copy"><span class="category">${escapeHTML(app.category || "Mobile app")}${app.status ? ` · ${escapeHTML(app.status)}` : ""}</span><h3>${escapeHTML(app.name)}</h3><p>${escapeHTML(app.description)}</p><div class="card-links"><a class="btn" href="${detailsUrl(app)}" aria-label="View details for ${escapeHTML(app.name)}">View details <span aria-hidden="true">↗</span></a>${privacy ? `<a href="${escapeHTML(privacy)}" aria-label="Privacy policy for ${escapeHTML(app.name)}">Privacy policy</a>` : ""}</div>${storeButtons(app)}</div></article>`;
 }
 function renderCards(target, list) {
   if (!target) return;
@@ -56,7 +56,7 @@ if (menu && nav) {
 const featured = document.querySelector("#featured-apps");
 renderCards(featured, apps);
 const showcase = document.querySelector("#showcase-apps");
-if (showcase) showcase.innerHTML = apps.slice(0, 2).map(app => `<a class="spotlight" href="${detailsUrl(app)}"><div class="spotlight-row"><div class="spotlight-info">${icon(app)}<div><h2>${escapeHTML(app.name)}</h2><span class="category">${escapeHTML(app.category)} · ${escapeHTML(app.platform)}</span></div></div><span class="round-arrow" aria-hidden="true">↗</span></div><p>${escapeHTML(app.description)}</p></a>`).join("");
+if (showcase) showcase.innerHTML = apps.map(app => `<a class="spotlight" href="${detailsUrl(app)}"><div class="spotlight-row"><div class="spotlight-info">${icon(app)}<div><h2>${escapeHTML(app.name)}</h2><span class="category">${escapeHTML(app.category)}</span></div></div><span class="round-arrow" aria-hidden="true">↗</span></div><p>${escapeHTML(app.description)}</p></a>`).join("");
 
 document.querySelectorAll("[data-policy-links]").forEach(target => {
   const prefix = target.dataset.prefix || "";
@@ -88,7 +88,7 @@ if (catalog) {
       const terms = safeUrl(app.termsUrl);
       const store = safeUrl(app.storeUrl);
       const enquiry = `mailto:${email}?subject=${encodeURIComponent(app.name + " availability")}`;
-      detail.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/apps/">Apps</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHTML(app.name)}</span></nav><section class="detail-hero ${escapeHTML(app.color || "blue")}">${icon(app)}<div><span class="platform">${escapeHTML(app.platform || "Mobile app")}${app.status ? ` · ${escapeHTML(app.status)}` : ""}</span><h1>${escapeHTML(app.name)}</h1><p>${escapeHTML(app.intro || app.description)}</p></div></section><div class="detail-grid"><div><section class="detail-box"><h2>A closer look</h2><ul class="feature-list">${(app.features || []).map(feature => `<li><h3>${escapeHTML(feature.title)}</h3><p>${escapeHTML(feature.text)}</p></li>`).join("")}</ul></section>${app.formats?.length ? `<section class="detail-box"><h2>Supported formats</h2><p class="small">${escapeHTML(app.compatibility || "")}</p><div class="format-list">${app.formats.map(format => `<span>${escapeHTML(format)}</span>`).join("")}</div></section>` : ""}${app.note ? `<section class="detail-box"><h2>Good to know</h2><p class="notice">${escapeHTML(app.note)}</p></section>` : ""}</div><div><section class="detail-box"><h2>Find your next step.</h2><p>Get the current availability${store ? " and download details" : " information"} for ${escapeHTML(app.name)}.</p>${storeButtons(app)}</section><section class="detail-box"><h2>Privacy, explained.</h2><p class="small">${escapeHTML(app.privacySummary || "Read the app’s privacy policy for its information-handling practices.")}</p><div class="actions">${privacy ? `<a class="text-link" href="${escapeHTML(privacy)}">Read privacy policy ↗</a>` : ""}${terms ? `<a class="text-link" href="${escapeHTML(terms)}">Terms &amp; Conditions</a>` : ""}</div></section></div></div>`;
+      detail.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/apps/">Apps</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHTML(app.name)}</span></nav><section class="detail-hero ${escapeHTML(app.color || "blue")}">${icon(app)}<div><span class="platform">${escapeHTML(app.category || "Mobile app")}${app.status ? ` · ${escapeHTML(app.status)}` : ""}</span><h1>${escapeHTML(app.name)}</h1><p>${escapeHTML(app.intro || app.description)}</p></div></section><div class="detail-grid"><div><section class="detail-box"><h2>A closer look</h2><ul class="feature-list">${(app.features || []).map(feature => `<li><h3>${escapeHTML(feature.title)}</h3><p>${escapeHTML(feature.text)}</p></li>`).join("")}</ul></section>${app.formats?.length ? `<section class="detail-box"><h2>Supported formats</h2><p class="small">${escapeHTML(app.compatibility || "")}</p><div class="format-list">${app.formats.map(format => `<span>${escapeHTML(format)}</span>`).join("")}</div></section>` : ""}${app.note ? `<section class="detail-box"><h2>Good to know</h2><p class="notice">${escapeHTML(app.note)}</p></section>` : ""}</div><div><section class="detail-box"><h2>Find your next step.</h2><p>Get the current availability${store ? " and download details" : " information"} for ${escapeHTML(app.name)}.</p>${storeButtons(app)}</section><section class="detail-box"><h2>Privacy, explained.</h2><p class="small">${escapeHTML(app.privacySummary || "Read the app’s privacy policy for its information-handling practices.")}</p><div class="actions">${privacy ? `<a class="text-link" href="${escapeHTML(privacy)}">Read privacy policy ↗</a>` : ""}${terms ? `<a class="text-link" href="${escapeHTML(terms)}">Terms &amp; Conditions</a>` : ""}</div></section></div></div>`;
     }
   } else {
     renderCards(catalog, apps);
@@ -149,17 +149,17 @@ if(coming) {
 function updateSliders() {
  document.querySelectorAll(".app-slider").forEach(slider=>slider.dispatchEvent(new Event("scroll")));
 }
-for(const target of [featured, document.body.dataset.appId ? null : catalog].filter(Boolean)) {
+for(const target of [featured, showcase, ...document.querySelectorAll(".trust-panel [data-policy-links]")].filter(Boolean)) {
  if(target.closest("[hidden]")) continue;
  target.classList.add("app-slider");
  target.setAttribute("role","region");
- target.setAttribute("aria-label","App collection slider");
+ target.setAttribute("aria-label",target === showcase ? "Featured apps" : target.hasAttribute("data-policy-links") ? "App privacy policies" : "App collection");
  target.tabIndex=0;
  const controls=document.createElement("div"); controls.className="slider-controls";
  controls.innerHTML='<span>Swipe or use the arrows to explore</span><div><button type="button" aria-label="Previous apps">←</button><button type="button" aria-label="Next apps">→</button></div>';
- target.before(controls);
+ const shell=document.createElement("div"); shell.className="slider-shell"; target.before(shell); shell.append(controls,target);
  const [prev,next]=controls.querySelectorAll("button");
- const move=direction=>target.scrollBy({left:direction*(target.querySelector(".app-card")?.getBoundingClientRect().width+24 || target.clientWidth),behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});
+ const move=direction=>target.scrollBy({left:direction*(target.firstElementChild?.getBoundingClientRect().width+24 || target.clientWidth),behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});
  prev.onclick=()=>move(-1);next.onclick=()=>move(1);
  target.addEventListener("keydown",e=>{if(e.target!==target)return;if(e.key==="ArrowRight"||e.key==="ArrowLeft"){e.preventDefault();move(e.key==="ArrowRight"?1:-1);}});
  const sync=()=>{prev.disabled=target.scrollLeft<=1;next.disabled=target.scrollLeft+target.clientWidth>=target.scrollWidth-2;};
