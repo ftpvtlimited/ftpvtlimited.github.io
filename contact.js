@@ -178,5 +178,36 @@ window.FT_APPS = [
     "storeUrl": "",
     "appStoreUrl": "",
     "pageUrl": "/switch-smart/"
+  },
+  {
+    "id": "all-video-downloader",
+    "name": "All Video Downloader",
+    "category": "Video & media",
+    "color": "purple",
+    "icon": "video",
+    "status": "Coming soon",
+    "description": "Save supported media you have permission to download, then organize and play it on your device.",
+    "intro": "A link-based video downloader with a download manager, offline playback, media-management tools and Gallery Vault controls.",
+    "features": [
+      {
+        "title": "Download from a link",
+        "text": "Paste a supported link to retrieve media you own or have permission to save. Availability depends on the source and supported content."
+      },
+      {
+        "title": "Manage and play media",
+        "text": "Keep track of downloads, organize saved files and play downloaded media offline."
+      },
+      {
+        "title": "Gallery Vault",
+        "text": "Keep selected media behind local Vault controls. Your Vault credentials stay on your device; forgotten credentials cannot be recovered by us."
+      }
+    ],
+    "note": "Coming soon. Only download content you own or have permission or legal authority to save. This app is independent of social media platforms and content providers.",
+    "privacySummary": "Downloaded media, pasted links, download history and Vault content are handled locally. Third-party services may process technical, advertising and purchase information; see the full policy.",
+    "privacyUrl": "/all-video-downloader/privacy/",
+    "pageUrl": "/all-video-downloader/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
   }
 ];

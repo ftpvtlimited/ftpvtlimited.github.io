@@ -5,6 +5,7 @@ const apps = Array.isArray(window.FT_APPS) ? window.FT_APPS : [];
 const email = "kcorporation70@gmail.com";
 const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, character => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[character]);
 const icons = {
+  video: '<rect x="3" y="3" width="18" height="18" rx="5"/><path d="m10 8 6 4-6 4Z"/>',
   document: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
   leaf: '<path d="M20 4c-8-2-15 2-15 9a6 6 0 0 0 6 6c7 0 9-7 9-15Z"/><path d="M4 21 15 10M10 15v-5M10 15h5"/>',
   grid: '<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>'
