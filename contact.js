@@ -1,6 +1,4 @@
-/* EDIT APP NAMES ONLY HERE. Keep id unchanged: it is the permanent link key.
-Add another object to extend the slider and catalog. Without pageUrl the shared /apps/?app=id page is used.
-Set status to "Coming soon" until release. Store URLs may be added when published. */
+/* Edit each app name here. Keep permanent ids and routes unchanged. */
 window.FT_APPS = [
   {
     "id": "all-document-reader",
@@ -228,6 +226,37 @@ window.FT_APPS = [
     "privacySummary": "Review the app policy for location access, local settings, permissions and third-party services.",
     "privacyUrl": "/lock-me/privacy/",
     "pageUrl": "/lock-me/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
+  },
+  {
+    "id": "look-check",
+    "name": "Look Check",
+    "category": "Lifestyle",
+    "status": "Coming soon",
+    "color": "orange",
+    "icon": "grid",
+    "description": "Check your outfit for an event or occasion, and keep your favorite looks together.",
+    "intro": "Choose an outfit photo and an occasion for an outfit check. Look Check is being prepared for release, with on-device image analysis and saved looks.",
+    "features": [
+      {
+        "title": "Start with your outfit",
+        "text": "Take a photo or choose an existing image for an outfit check."
+      },
+      {
+        "title": "Choose the occasion",
+        "text": "Get an outfit assessment based on the event or occasion you select."
+      },
+      {
+        "title": "Keep your looks",
+        "text": "Save looks and manage previous checks on your device."
+      }
+    ],
+    "note": "Coming soon. Features and store availability will be confirmed at release.",
+    "privacySummary": "Outfit image analysis is intended to run on your device. Google services may process technical, advertising, consent and purchase information. Read the full policy for details.",
+    "privacyUrl": "/look-check/privacy/",
+    "pageUrl": "/look-check/",
     "termsUrl": "/terms/",
     "storeUrl": "",
     "appStoreUrl": ""
