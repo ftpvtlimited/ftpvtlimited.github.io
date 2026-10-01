@@ -209,5 +209,27 @@ window.FT_APPS = [
     "termsUrl": "/terms/",
     "storeUrl": "",
     "appStoreUrl": ""
+  },
+  {
+    "id": "lock-me",
+    "name": "Lock Me",
+    "category": "Mobile app",
+    "status": "Coming soon",
+    "color": "purple",
+    "icon": "grid",
+    "description": "A new app from FT PVT. LIMITED. More details coming soon.",
+    "intro": "Lock Me is in preparation. Features and store availability will be announced here.",
+    "features": [
+      {
+        "title": "Coming soon",
+        "text": "More product details will be shared before launch."
+      }
+    ],
+    "privacySummary": "Review the app policy for location access, local settings, permissions and third-party services.",
+    "privacyUrl": "/lock-me/privacy/",
+    "pageUrl": "/lock-me/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
   }
 ];
