@@ -70,33 +70,6 @@ window.FT_APPS = [
     "pageUrl": "/vape-less/"
   },
   {
-    "id": "qr-code-scanner",
-    "name": "QR Code Scanner",
-    "category": "Utilities",
-    "color": "purple",
-    "icon": "grid",
-    "platform": "Android",
-    "status": "Coming soon",
-    "description": "Scan QR codes and barcodes, create your own codes, and keep useful results together.",
-    "intro": "Scan with your camera or a selected image. Create codes, save favorites and choose what to do with each result.",
-    "features": [
-      {
-        "title": "Designed around your choices",
-        "text": "Scan with your camera or a selected image. Create codes, save favorites and choose what to do with each result."
-      },
-      {
-        "title": "In preparation",
-        "text": "This app is coming soon. Store availability and final features will be confirmed at launch."
-      }
-    ],
-    "privacySummary": "Read the full policy for this app’s permissions, processing and third-party services.",
-    "privacyUrl": "/qr-code-scanner/privacy/",
-    "termsUrl": "/terms/",
-    "storeUrl": "",
-    "appStoreUrl": "",
-    "pageUrl": "/qr-code-scanner/"
-  },
-  {
     "id": "all-language-translator",
     "name": "All Language translator",
     "category": "Translation",
