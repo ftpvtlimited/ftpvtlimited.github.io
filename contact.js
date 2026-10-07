@@ -1,3 +1,4 @@
+/* Change app display names here; keep permanent ids stable. */
 window.FT_APPS = [
   {
     "id": "all-document-reader",
@@ -259,6 +260,37 @@ window.FT_APPS = [
     "privacySummary": "Read about local usage records, SIM permissions, retention and deletion.",
     "privacyUrl": "/quota/privacy/",
     "pageUrl": "/quota/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
+  },
+  {
+    "id": "edge-glow-flash-alerts",
+    "name": "Edge Glow & Flash Alerts",
+    "category": "Personalization",
+    "status": "Coming soon",
+    "color": "purple",
+    "icon": "grid",
+    "description": "Add edge glow and visual notification alerts with colors and per-app settings.",
+    "intro": "Personalize visual alerts with glow styles, colors and per-app rules. Edge Glow & Flash Alerts is coming soon.",
+    "features": [
+      {
+        "title": "Your glow style",
+        "text": "Choose colors, palettes and supported animation settings."
+      },
+      {
+        "title": "Per-app rules",
+        "text": "Configure visual notification behavior for individual apps where supported."
+      },
+      {
+        "title": "Local preferences",
+        "text": "Settings and notification-related processing are designed to remain on your device."
+      }
+    ],
+    "note": "Coming soon. Feature availability depends on Android version, device settings and the permissions you grant.",
+    "privacySummary": "Read about Notification Access, overlays, lock-screen alerts and local settings. The supplied policy describes a version without Internet permission or detected tracking SDKs.",
+    "privacyUrl": "/edge-glow-flash-alerts/privacy/",
+    "pageUrl": "/edge-glow-flash-alerts/",
     "termsUrl": "/terms/",
     "storeUrl": "",
     "appStoreUrl": ""
