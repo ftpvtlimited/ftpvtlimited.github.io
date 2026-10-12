@@ -236,13 +236,13 @@ window.FT_APPS = [
   },
   {
     "id": "quota",
-    "name": "Quota",
+    "name": "Mobile Data Checker",
     "category": "Utilities",
     "status": "Coming soon",
     "color": "blue",
     "icon": "grid",
     "description": "Monitor mobile and Wi-Fi data usage and manage your SIM bundles.",
-    "intro": "Track data usage, bundle allowances and remaining data on your device. Quota is coming soon.",
+    "intro": "Track data usage, bundle allowances and remaining data on your device. Mobile Data Checker is coming soon.",
     "features": [
       {
         "title": "Data usage",
