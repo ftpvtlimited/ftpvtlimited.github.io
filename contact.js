@@ -325,5 +325,35 @@ window.FT_APPS = [
     "termsUrl": "/terms/",
     "storeUrl": "",
     "appStoreUrl": ""
+  },
+  {
+    "id": "apk-shield",
+    "name": "APK Shield",
+    "category": "Utilities",
+    "status": "Coming soon",
+    "color": "blue",
+    "icon": "grid",
+    "description": "Inspect APK files and view information about installed Android applications.",
+    "intro": "Explore APK package details and installed-application information. APK Shield is coming soon.",
+    "features": [
+      {
+        "title": "APK inspection",
+        "text": "Inspect selected APK files and view package details and technical metadata."
+      },
+      {
+        "title": "Installed apps",
+        "text": "View information about installed applications using supported Android package APIs."
+      },
+      {
+        "title": "Installation requests",
+        "text": "Request APK installation through Android installation controls when permitted."
+      }
+    ],
+    "privacySummary": "File and package access supports app inspection. Google advertising, Firebase configuration and billing services may process technical information. Read the full policy for details.",
+    "privacyUrl": "/apk-shield/privacy/",
+    "pageUrl": "/apk-shield/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
   }
 ];
