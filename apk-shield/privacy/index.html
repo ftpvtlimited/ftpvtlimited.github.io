@@ -7,30 +7,24 @@
   <meta name="theme-color" content="#f7f8fc">
 
   <title>APK Shield Privacy Policy | FT PVT. LIMITED</title>
-
   <meta name="description"
-        content="APK Shield privacy policy: APK inspection, Android permissions, advertising, Firebase services, billing and privacy choices.">
+        content="APK Shield privacy policy covering application inspection, Android permissions, advertising, Firebase services, purchases and privacy choices.">
 
-  <link rel="canonical"
-        href="https://ftpvtlimited.github.io/apk-shield/privacy/">
+  <link rel="canonical" href="https://ftpvtlimited.github.io/apk-shield/privacy/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="FT PVT. LIMITED">
-  <meta property="og:title"
-        content="APK Shield Privacy Policy | FT PVT. LIMITED">
+  <meta property="og:title" content="APK Shield Privacy Policy | FT PVT. LIMITED">
   <meta property="og:description"
-        content="Learn how APK Shield handles APK information, Android permissions and integrated third-party services.">
-  <meta property="og:url"
-        content="https://ftpvtlimited.github.io/apk-shield/privacy/">
+        content="How APK Shield accesses application information, uses permissions and integrates third-party services.">
+  <meta property="og:url" content="https://ftpvtlimited.github.io/apk-shield/privacy/">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title"
-        content="APK Shield Privacy Policy | FT PVT. LIMITED">
+  <meta name="twitter:title" content="APK Shield Privacy Policy | FT PVT. LIMITED">
   <meta name="twitter:description"
-        content="Learn how APK Shield handles APK information, Android permissions and integrated third-party services.">
-
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/style.css">
+        content="How APK Shield accesses application information, uses permissions and integrates third-party services.">
 
   <script src="/contact.js?v=20261016-apk-shield" defer></script>
   <script src="/script.js" defer></script>
@@ -61,7 +55,6 @@
       color: #243252;
       font-size: 1.08rem;
       line-height: 1.5;
-      overflow-wrap: anywhere;
     }
 
     .apk-policy .legal-body p {
@@ -118,19 +111,16 @@
       background: #f8faff;
     }
 
-    .apk-policy .provider-links p:last-child {
+    .apk-policy .provider-links p:last-child,
+    .apk-policy .contact-card p:last-child {
       margin-bottom: 0;
     }
 
-    .apk-policy .contact {
+    .apk-policy .contact-card {
       padding: 22px;
       border: 1px solid #dce3f5;
       border-radius: 18px;
       background: linear-gradient(135deg, #edf3ff, #f4edff);
-    }
-
-    .apk-policy .contact p:last-child {
-      margin-bottom: 0;
     }
 
     .apk-policy code {
@@ -157,8 +147,8 @@
         gap: 8px;
       }
 
-      .apk-policy .contact,
-      .apk-policy .provider-links {
+      .apk-policy .provider-links,
+      .apk-policy .contact-card {
         padding: 18px;
       }
     }
@@ -176,8 +166,7 @@
       </a>
 
       <button class="menu" type="button"
-              aria-controls="primary-nav"
-              aria-expanded="false">
+              aria-controls="primary-nav" aria-expanded="false">
         Menu
       </button>
 
@@ -207,7 +196,7 @@
         </h1>
 
         <p class="lead">
-          APK inspection, device permissions and third-party services.
+          Application inspection, Android permissions and third-party data processing.
         </p>
 
         <p class="legal-meta">
@@ -235,24 +224,23 @@
     <div class="wrap legal-layout">
       <aside class="contents">
         <h2>On this page</h2>
-
         <nav aria-label="Privacy policy contents">
           <a href="#introduction">1. Introduction</a>
-          <a href="#apk-inspection">2. APK Inspection and Application Information</a>
-          <a href="#storage">3. Storage and File Access</a>
-          <a href="#application-visibility">4. Installed Application Visibility</a>
-          <a href="#installation">5. APK Installation Permission</a>
-          <a href="#technical-information">6. Device and Technical Information</a>
-          <a href="#admob">7. Google AdMob Advertising</a>
+          <a href="#application-analysis">2. How APK Shield Accesses and Analyzes Applications</a>
+          <a href="#file-access">3. Storage and File Access</a>
+          <a href="#installed-applications">4. Installed Application Information</a>
+          <a href="#installation">5. Application Installation Functionality</a>
+          <a href="#technical-data">6. Device Information and Technical Data</a>
+          <a href="#admob">7. Advertising — Google AdMob</a>
           <a href="#remote-config">8. Firebase Remote Config</a>
           <a href="#firebase-installations">9. Firebase Installations</a>
           <a href="#billing">10. Google Play Billing</a>
-          <a href="#consent">11. Advertising Consent SDK</a>
+          <a href="#advertising-choices">11. Advertising Privacy Choices</a>
           <a href="#notifications">12. Notifications</a>
-          <a href="#local-storage">13. Local Application Storage</a>
-          <a href="#third-party-services">14. Third-Party Service Providers</a>
-          <a href="#permissions">15. Managing Android Permissions</a>
-          <a href="#changes">16. Changes to This Privacy Policy</a>
+          <a href="#local-data">13. Local Application Data</a>
+          <a href="#third-party-processing">14. Third-Party Data Processing</a>
+          <a href="#privacy-preferences">15. Managing Permissions and Privacy Preferences</a>
+          <a href="#policy-changes">16. Changes to This Privacy Policy</a>
           <a href="#contact-us">17. Contact Us</a>
         </nav>
       </aside>
@@ -262,198 +250,233 @@
           <h2>1. Introduction</h2>
 
           <p>
-            FT PVT. LIMITED ("we", "us", or "our") provides
+            FT PVT. LIMITED ("we," "us," or "our") provides
             <span data-app-name="apk-shield">APK Shield</span>,
-            an Android application designed to inspect APK files,
-            examine installed applications, and display information
-            relating to Android application packages.
+            an Android application designed to help users inspect installed
+            applications, analyze Android application installation packages,
+            and review security-related application information.
           </p>
 
           <p>
-            This Privacy Policy explains the information that
-            <span data-app-name="apk-shield">APK Shield</span> can access,
-            the permissions associated with its functionality, and the
-            information that integrated third-party services may process.
+            This Privacy Policy explains how
+            <span data-app-name="apk-shield">APK Shield</span>
+            accesses and processes information, how its features use Android
+            permissions, and how integrated third-party services handle information.
+          </p>
+
+          <p>
+            We aim to provide clear information about the privacy practices
+            associated with <span data-app-name="apk-shield">APK Shield</span>.
           </p>
         </section>
 
-        <section id="apk-inspection">
-          <h2>2. APK Inspection and Application Information</h2>
+        <section id="application-analysis">
+          <h2>
+            2. How <span data-app-name="apk-shield">APK Shield</span>
+            Accesses and Analyzes Applications
+          </h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> includes
-            functionality for inspecting Android application packages
-            and applications installed on the device.
+            <span data-app-name="apk-shield">APK Shield</span> provides
+            application inspection and analysis features that allow users
+            to review technical and security-related information about
+            Android applications.
           </p>
 
-          <p>For these functions, the application can access and process:</p>
+          <p>
+            To perform these functions,
+            <span data-app-name="apk-shield">APK Shield</span>
+            accesses and processes relevant information, including:
+          </p>
 
           <ul>
-            <li>APK files accessible to the application.</li>
-            <li>Installed application names and package information.</li>
-            <li>Application version details.</li>
-            <li>Technical metadata relating to APK files.</li>
-            <li>Information required for APK inspection and analysis.</li>
-            <li>APK analysis results and security-related findings.</li>
+            <li>Installed application names and package details.</li>
+            <li>Application version information.</li>
+            <li>Technical information associated with Android applications.</li>
+            <li>Android application installation files accessible through device storage.</li>
+            <li>Application permissions and package metadata.</li>
+            <li>Security-related information identified during application analysis.</li>
+            <li>Analysis results generated by <span data-app-name="apk-shield">APK Shield</span>.</li>
           </ul>
 
           <p>
-            This information supports the application's APK inspection
-            and installed-application analysis features.
+            This information supports
+            <span data-app-name="apk-shield">APK Shield</span>'s
+            application inspection and security analysis features.
+          </p>
+
+          <p>
+            Access to installed applications and stored files depends on
+            Android permissions, operating-system restrictions, and device settings.
           </p>
         </section>
 
-        <section id="storage">
+        <section id="file-access">
           <h2>3. Storage and File Access</h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> declares
-            Android storage permissions to support its APK file
-            inspection features.
+            <span data-app-name="apk-shield">APK Shield</span> uses Android
+            storage access permissions to support application package
+            inspection and file analysis.
           </p>
+
+          <p>The application includes the following permissions:</p>
 
           <h3><code>READ_EXTERNAL_STORAGE</code></h3>
           <p>
-            On supported older Android versions, this permission allows
-            the application to read accessible shared-storage content.
+            Allows <span data-app-name="apk-shield">APK Shield</span>
+            to access supported shared-storage content on compatible
+            older Android versions.
           </p>
 
           <h3><code>MANAGE_EXTERNAL_STORAGE</code></h3>
           <p>
-            This permission allows broader shared-storage access when
-            approved by the user through Android's permission settings.
+            Allows <span data-app-name="apk-shield">APK Shield</span>
+            to access a broader range of files in shared storage when the
+            user grants the required permission through Android settings.
           </p>
 
           <p>
-            Storage access supports APK file inspection and related
-            file-processing functionality. The availability and scope
-            of storage permissions depend on the Android version and
-            applicable device settings.
+            These permissions support the application's ability to locate,
+            access, and analyze Android application installation files.
+          </p>
+
+          <p>
+            Storage access is controlled through Android's permission system.
+            Users can review or change applicable permissions in their device settings.
           </p>
         </section>
 
-        <section id="application-visibility">
-          <h2>4. Installed Application Visibility</h2>
+        <section id="installed-applications">
+          <h2>4. Installed Application Information</h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> declares
-            the Android <code>QUERY_ALL_PACKAGES</code> permission.
+            <span data-app-name="apk-shield">APK Shield</span> uses Android's
+            package-management functionality to inspect applications installed
+            on the device.
           </p>
 
           <p>
-            This permission supports inspection of installed Android
-            applications and access to relevant package information.
+            The application includes the <code>QUERY_ALL_PACKAGES</code>
+            permission to support visibility of installed applications.
           </p>
 
           <p>
-            Accessible information may include application names,
-            package identifiers, version details, and other metadata
-            exposed by Android's package-management system.
+            The information accessible through this functionality includes
+            application names, package identifiers, application versions,
+            and other technical information made available by Android.
+          </p>
+
+          <p>
+            <span data-app-name="apk-shield">APK Shield</span> processes this
+            information to provide its installed-application inspection
+            and analysis features.
           </p>
         </section>
 
         <section id="installation">
-          <h2>5. APK Installation Permission</h2>
-
-          <p>
-            <span data-app-name="apk-shield">APK Shield</span> declares
-            the Android <code>REQUEST_INSTALL_PACKAGES</code> permission.
-          </p>
-
-          <p>
-            This permission allows the application to request APK
-            installation through Android's supported installation
-            mechanisms.
-          </p>
-
-          <p>
-            Android controls whether installation requests from the
-            application are permitted.
-          </p>
-        </section>
-
-        <section id="technical-information">
-          <h2>6. Device and Technical Information</h2>
+          <h2>5. Application Installation Functionality</h2>
 
           <p>
             <span data-app-name="apk-shield">APK Shield</span> includes
-            Google services that may process technical information
-            when their functionality is used.
+            functionality related to Android application installation packages.
           </p>
 
           <p>
-            Depending on the service and its configuration, this
-            information may include:
+            The application declares the <code>REQUEST_INSTALL_PACKAGES</code>
+            permission, which enables
+            <span data-app-name="apk-shield">APK Shield</span> to request
+            application installation through Android's supported installation mechanisms.
           </p>
 
+          <p>
+            Android manages the relevant installation permissions and
+            user approval requirements.
+          </p>
+        </section>
+
+        <section id="technical-data">
+          <h2>6. Device Information and Technical Data</h2>
+
+          <p>
+            <span data-app-name="apk-shield">APK Shield</span> integrates
+            third-party Google services that process technical information
+            to support advertising, application configuration, and purchase functionality.
+          </p>
+
+          <p>Depending on the service, this information includes or may include:</p>
+
           <ul>
-            <li>Device and operating-system information.</li>
+            <li>Device model and operating-system information.</li>
             <li>Application version and configuration details.</li>
-            <li>IP address and network-related information.</li>
-            <li>Application or installation identifiers.</li>
-            <li>Advertising identifiers, when available.</li>
-            <li>Advertising interactions and SDK diagnostics.</li>
+            <li>Network information and IP address.</li>
+            <li>Application installation identifiers.</li>
+            <li>Advertising identifiers, where available and permitted.</li>
+            <li>Advertisement interactions.</li>
+            <li>SDK diagnostic and performance information.</li>
           </ul>
 
           <p>
-            The information processed depends on the integrated
-            service, its configuration, Android settings, and
-            applicable privacy choices.
+            The information processed by each service is described in
+            the relevant sections below.
           </p>
         </section>
 
         <section id="admob">
-          <h2>7. Google AdMob Advertising</h2>
+          <h2>7. Advertising — Google AdMob</h2>
 
           <p>
             <span data-app-name="apk-shield">APK Shield</span> integrates
-            the Google Mobile Ads SDK, provided by Google LLC.
+            Google AdMob, an advertising service provided by Google LLC.
           </p>
 
           <p>
-            The SDK supports advertising functionality. According to
-            Google's SDK disclosures, Google Mobile Ads processes
-            information for advertising, measurement, analytics, and
-            fraud prevention.
+            The Google Mobile Ads SDK processes information to support
+            advertising delivery, advertising measurement, reporting,
+            and fraud prevention.
           </p>
 
-          <p>This information can include:</p>
+          <p>
+            According to Google's official documentation, information
+            processed by the SDK includes:
+          </p>
 
           <ul>
             <li>IP address.</li>
-            <li>Advertising and application identifiers.</li>
-            <li>Interactions with advertisements and the application.</li>
             <li>Device and application information.</li>
-            <li>SDK performance and diagnostic information.</li>
+            <li>Advertising identifiers, where available.</li>
+            <li>User interactions related to advertising and application activity.</li>
+            <li>Diagnostic and performance information.</li>
           </ul>
 
           <p>
-            The availability of advertising identifiers and advertising
-            privacy options depends on Android settings, SDK
-            configuration, and applicable privacy requirements.
+            Google handles advertising-related information according to
+            its privacy policies, SDK configuration, and applicable privacy requirements.
+          </p>
+
+          <p>
+            Users can manage supported advertising privacy settings
+            through their Android device.
           </p>
 
           <div class="provider-links">
-            <p><strong>Provider:</strong> Google LLC</p>
-
+            <p><strong>Service Provider:</strong> Google LLC</p>
             <p>
-              <strong>Privacy Policy:</strong><br>
+              <strong>Google Privacy Policy:</strong><br>
               <a href="https://policies.google.com/privacy"
                  target="_blank" rel="noopener noreferrer">
                 https://policies.google.com/privacy
               </a>
             </p>
-
             <p>
-              <strong>Advertising Privacy:</strong><br>
+              <strong>Google Advertising Privacy:</strong><br>
               <a href="https://policies.google.com/technologies/ads"
                  target="_blank" rel="noopener noreferrer">
                 https://policies.google.com/technologies/ads
               </a>
             </p>
-
             <p>
-              <strong>SDK Data Disclosure:</strong><br>
+              <strong>Google Mobile Ads Data Disclosure:</strong><br>
               <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure"
                  target="_blank" rel="noopener noreferrer">
                 Google Mobile Ads Data Disclosure
@@ -466,19 +489,22 @@
           <h2>8. Firebase Remote Config</h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> includes
-            Firebase Remote Config integration, provided by Google LLC.
+            <span data-app-name="apk-shield">APK Shield</span> integrates
+            Firebase Remote Config, a service provided by Google LLC.
           </p>
 
           <p>
-            Firebase Remote Config supports retrieval of application
-            configuration values.
+            Firebase Remote Config supports the retrieval and management
+            of application configuration values.
           </p>
 
           <p>
-            According to Firebase documentation, configuration requests
-            may involve technical information such as:
+            When Firebase Remote Config communicates with Firebase services,
+            technical information associated with configuration requests
+            may be processed.
           </p>
+
+          <p>According to Firebase documentation, this can include:</p>
 
           <ul>
             <li>Application identification and version information.</li>
@@ -487,13 +513,10 @@
             <li>Firebase Installation ID.</li>
           </ul>
 
-          <p>
-            This information supports Firebase configuration-related services.
-          </p>
+          <p>This information supports the operation of Firebase Remote Config.</p>
 
           <div class="provider-links">
-            <p><strong>Provider:</strong> Google LLC</p>
-
+            <p><strong>Service Provider:</strong> Google LLC (Firebase)</p>
             <p>
               <strong>Firebase Privacy Information:</strong><br>
               <a href="https://firebase.google.com/support/privacy"
@@ -501,9 +524,8 @@
                 https://firebase.google.com/support/privacy
               </a>
             </p>
-
             <p>
-              <strong>Documentation:</strong><br>
+              <strong>Firebase Remote Config Documentation:</strong><br>
               <a href="https://firebase.google.com/docs/remote-config"
                  target="_blank" rel="noopener noreferrer">
                 https://firebase.google.com/docs/remote-config
@@ -516,30 +538,31 @@
           <h2>9. Firebase Installations</h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> contains
-            the Firebase Installations SDK, which supports Firebase
-            services that identify individual application installations.
+            <span data-app-name="apk-shield">APK Shield</span> integrates
+            Firebase Installations to support Firebase-related functionality.
           </p>
 
           <p>
-            Firebase Installations can generate a Firebase Installation
-            ID and process associated technical information to support
-            integrated Firebase functionality.
+            Firebase Installations manages identifiers associated with
+            individual installations of an application.
+          </p>
+
+          <p>
+            The service generates Firebase Installation IDs and processes
+            associated technical information to support integrated Firebase services.
           </p>
 
           <div class="provider-links">
-            <p><strong>Provider:</strong> Google LLC</p>
-
+            <p><strong>Service Provider:</strong> Google LLC (Firebase)</p>
             <p>
-              <strong>Privacy Information:</strong><br>
+              <strong>Firebase Privacy Information:</strong><br>
               <a href="https://firebase.google.com/support/privacy"
                  target="_blank" rel="noopener noreferrer">
                 https://firebase.google.com/support/privacy
               </a>
             </p>
-
             <p>
-              <strong>Documentation:</strong><br>
+              <strong>Firebase Installations Documentation:</strong><br>
               <a href="https://firebase.google.com/docs/projects/manage-installations"
                  target="_blank" rel="noopener noreferrer">
                 Firebase Installations Documentation
@@ -552,39 +575,42 @@
           <h2>10. Google Play Billing</h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> includes
-            Google Play Billing integration for in-app purchase functionality.
+            <span data-app-name="apk-shield">APK Shield</span> integrates
+            Google Play Billing to support in-app purchases.
           </p>
 
           <p>
-            When a purchase is initiated, Google Play processes the
-            transaction using Google's billing infrastructure.
+            When a user initiates a purchase, the transaction is processed
+            through Google Play.
           </p>
 
           <p>
-            The application includes functionality for handling
-            purchase-related information, including purchased product
-            identifiers, purchase status, and purchase tokens.
+            The application's billing functionality handles purchase-related
+            information required for purchase processing and management, including:
           </p>
 
+          <ul>
+            <li>Purchased product identifiers.</li>
+            <li>Purchase status.</li>
+            <li>Purchase tokens.</li>
+          </ul>
+
           <p>
-            Google processes transaction information according to its
-            applicable policies.
+            Google processes purchase transactions according to its
+            applicable privacy policies.
           </p>
 
           <div class="provider-links">
-            <p><strong>Provider:</strong> Google LLC</p>
-
+            <p><strong>Service Provider:</strong> Google LLC</p>
             <p>
-              <strong>Privacy Policy:</strong><br>
+              <strong>Google Privacy Policy:</strong><br>
               <a href="https://policies.google.com/privacy"
                  target="_blank" rel="noopener noreferrer">
                 https://policies.google.com/privacy
               </a>
             </p>
-
             <p>
-              <strong>Documentation:</strong><br>
+              <strong>Google Play Billing Documentation:</strong><br>
               <a href="https://developer.android.com/google/play/billing"
                  target="_blank" rel="noopener noreferrer">
                 Google Play Billing Documentation
@@ -593,41 +619,40 @@
           </div>
         </section>
 
-        <section id="consent">
-          <h2>11. Advertising Consent SDK</h2>
+        <section id="advertising-choices">
+          <h2>11. Advertising Privacy Choices</h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> contains
-            Google's User Messaging Platform (UMP) SDK, which provides
-            functionality for managing advertising privacy choices.
+            <span data-app-name="apk-shield">APK Shield</span> includes
+            Google's User Messaging Platform SDK, which provides
+            functionality for managing advertising consent and privacy choices.
           </p>
 
           <p>
-            Where a consent flow is configured and presented, users
-            may be able to provide applicable advertising consent preferences.
+            Advertising consent options, when made available through the
+            application, are subject to the applicable advertising settings
+            and privacy requirements.
           </p>
 
           <p>
-            The availability of these controls depends on the application's
-            implementation and applicable regional privacy requirements.
+            Users can also manage supported advertising privacy preferences
+            through their Android device settings.
           </p>
 
           <div class="provider-links">
-            <p><strong>Provider:</strong> Google LLC</p>
-
+            <p><strong>Service Provider:</strong> Google LLC</p>
             <p>
-              <strong>Privacy Policy:</strong><br>
+              <strong>Google Privacy Policy:</strong><br>
               <a href="https://policies.google.com/privacy"
                  target="_blank" rel="noopener noreferrer">
                 https://policies.google.com/privacy
               </a>
             </p>
-
             <p>
-              <strong>Documentation:</strong><br>
+              <strong>Google User Messaging Platform Documentation:</strong><br>
               <a href="https://developers.google.com/admob/android/privacy"
                  target="_blank" rel="noopener noreferrer">
-                Google UMP Documentation
+                Google User Messaging Platform Documentation
               </a>
             </p>
           </div>
@@ -637,103 +662,131 @@
           <h2>12. Notifications</h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> declares
-            the Android <code>POST_NOTIFICATIONS</code> permission.
+            <span data-app-name="apk-shield">APK Shield</span> includes
+            Android notification permission support.
           </p>
 
           <p>
-            On supported Android versions, users control whether the
-            application is permitted to display notifications.
+            On compatible Android versions, notification access is controlled
+            through Android's notification permission system.
           </p>
 
           <p>
-            Notification permission can be managed through Android
-            application settings.
+            Users can allow, deny, or change the application's notification
+            permission through their device settings.
           </p>
         </section>
 
-        <section id="local-storage">
-          <h2>13. Local Application Storage</h2>
+        <section id="local-data">
+          <h2>13. Local Application Data</h2>
 
           <p>
             <span data-app-name="apk-shield">APK Shield</span> includes
-            Android components supporting local data storage and
-            background task management.
+            Android components that support local application data storage
+            and background processing.
           </p>
 
           <p>
-            These components support application operations and may
-            retain information associated with local settings,
-            processing, or related functions.
+            Local application data handling supports the operation of
+            <span data-app-name="apk-shield">APK Shield</span>'s features,
+            including application inspection and related processing.
           </p>
 
           <p>
-            Local storage components do not, by themselves, indicate
-            that locally stored information is transmitted to an
-            external server.
+            Information processed by integrated Google services is subject
+            to the relevant third-party service disclosures provided in
+            this Privacy Policy.
           </p>
         </section>
 
-        <section id="third-party-services">
-          <h2>14. Third-Party Service Providers</h2>
+        <section id="third-party-processing">
+          <h2>14. Third-Party Data Processing</h2>
 
           <p>
-            <span data-app-name="apk-shield">APK Shield</span> contains
-            the following privacy-relevant Google integrations:
+            <span data-app-name="apk-shield">APK Shield</span> integrates
+            the following privacy-relevant third-party services:
           </p>
 
           <ul>
-            <li>Google Mobile Ads (AdMob).</li>
-            <li>Firebase Remote Config.</li>
-            <li>Firebase Installations.</li>
-            <li>Google Play Billing.</li>
-            <li>Google User Messaging Platform SDK.</li>
+            <li>
+              <strong>Google AdMob:</strong>
+              Advertising delivery, measurement, and related processing.
+            </li>
+            <li>
+              <strong>Firebase Remote Config:</strong>
+              Application configuration functionality.
+            </li>
+            <li>
+              <strong>Firebase Installations:</strong>
+              Firebase installation identification and service support.
+            </li>
+            <li>
+              <strong>Google Play Billing:</strong>
+              In-app purchase processing.
+            </li>
+            <li>
+              <strong>Google User Messaging Platform:</strong>
+              Advertising consent-management functionality.
+            </li>
           </ul>
 
           <p>
-            Each provider's handling of information is described in its
-            relevant privacy policy and technical documentation, linked
-            in the preceding sections.
+            These services are provided by Google LLC and process information
+            according to their applicable privacy policies and service configurations.
+          </p>
+
+          <p>
+            Official privacy policies and documentation links are provided
+            in the relevant sections above.
           </p>
         </section>
 
-        <section id="permissions">
-          <h2>15. Managing Android Permissions</h2>
+        <section id="privacy-preferences">
+          <h2>15. Managing Permissions and Privacy Preferences</h2>
 
           <p>
-            Users can manage applicable permissions through their
-            device's Android settings.
+            Users can manage permissions and supported privacy settings
+            through their Android device.
           </p>
 
           <p>
-            Depending on the Android version, these settings may include:
+            Depending on the Android version and applicable features,
+            these controls include:
           </p>
 
           <ul>
-            <li>Storage and all-files access.</li>
+            <li>Storage and file access permissions.</li>
             <li>Notification permissions.</li>
-            <li>Permission to install unknown applications.</li>
+            <li>Application installation permissions.</li>
             <li>Android advertising privacy settings.</li>
           </ul>
 
           <p>
-            Restricting a permission needed by a particular feature may
-            prevent that feature from functioning as intended.
+            Restricting a permission required by a particular
+            <span data-app-name="apk-shield">APK Shield</span> feature
+            may affect that feature's availability.
+          </p>
+
+          <p>
+            For questions about information processed in connection with
+            <span data-app-name="apk-shield">APK Shield</span>, users may
+            contact FT PVT. LIMITED using the contact information provided below.
           </p>
         </section>
 
-        <section id="changes">
+        <section id="policy-changes">
           <h2>16. Changes to This Privacy Policy</h2>
 
           <p>
-            FT PVT. LIMITED may update this Privacy Policy if
-            <span data-app-name="apk-shield">APK Shield</span>'s
-            functionality, permissions, integrated third-party services,
-            or applicable requirements change.
+            FT PVT. LIMITED may update this Privacy Policy when
+            <span data-app-name="apk-shield">APK Shield</span>'s functionality,
+            permissions, integrated third-party services, or applicable
+            privacy requirements change.
           </p>
 
           <p>
-            Any revised version will display its applicable effective date.
+            Updates will be reflected in the published Privacy Policy
+            with the applicable effective date.
           </p>
         </section>
 
@@ -741,30 +794,26 @@
           <h2>17. Contact Us</h2>
 
           <p>
-            If you have questions or concerns about this Privacy Policy
-            or the privacy-related functionality of
-            <span data-app-name="apk-shield">APK Shield</span>,
-            you may contact us using the following details:
+            If you have questions, concerns, or requests regarding
+            <span data-app-name="apk-shield">APK Shield</span> or this
+            Privacy Policy, please contact us using the following details:
           </p>
 
-          <div class="contact">
+          <div class="contact-card">
             <p>
-              <strong>Company:</strong><br>
+              <strong>Company / Developer:</strong><br>
               FT PVT. LIMITED
             </p>
-
             <p>
-              <strong>Application:</strong><br>
+              <strong>Application Name:</strong><br>
               <span data-app-name="apk-shield">APK Shield</span>
             </p>
-
             <p>
               <strong>Email:</strong><br>
               <a href="mailto:kcorporation70@gmail.com">
                 kcorporation70@gmail.com
               </a>
             </p>
-
             <p>
               <strong>Effective Date:</strong><br>
               <time datetime="2026-10">October 2026</time>
@@ -795,10 +844,9 @@
 
           <div class="socials" aria-label="Social icons">
             <span class="social" role="img" aria-label="Instagram">
-              <svg viewBox="0 0 24 24" fill="none"
-                   stroke="currentColor" stroke-width="1.7"
-                   stroke-linecap="round" stroke-linejoin="round"
-                   aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="1.7" stroke-linecap="round"
+                   stroke-linejoin="round" aria-hidden="true">
                 <rect x="3" y="3" width="18" height="18" rx="5"/>
                 <circle cx="12" cy="12" r="4"/>
                 <path d="M17.5 6.5h.01"/>
@@ -806,19 +854,17 @@
             </span>
 
             <span class="social" role="img" aria-label="LinkedIn">
-              <svg viewBox="0 0 24 24" fill="none"
-                   stroke="currentColor" stroke-width="1.7"
-                   stroke-linecap="round" stroke-linejoin="round"
-                   aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="1.7" stroke-linecap="round"
+                   stroke-linejoin="round" aria-hidden="true">
                 <path d="M5 9v11M5 5h.01M10 20V9h4v2c2-4 6-2 6 1v8M14 12v8"/>
               </svg>
             </span>
 
             <span class="social" role="img" aria-label="Facebook">
-              <svg viewBox="0 0 24 24" fill="none"
-                   stroke="currentColor" stroke-width="1.7"
-                   stroke-linecap="round" stroke-linejoin="round"
-                   aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="1.7" stroke-linecap="round"
+                   stroke-linejoin="round" aria-hidden="true">
                 <path d="M14 22V12h4l1-4h-5V6c0-1.5 1-2 3-2h2V1h-3c-4 0-6 2-6 6v1H7v4h3v10"/>
               </svg>
             </span>
