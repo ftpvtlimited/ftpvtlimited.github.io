@@ -296,14 +296,14 @@ window.FT_APPS = [
     "appStoreUrl": ""
   },
   {
-    "id": "blood-pressure-tracker",
-    "name": "Blood Pressure Tracker",
+    "id": "bp-and-sugar-tracker",
+    "name": "BP and Sugar Tracker",
     "category": "Health & wellness",
     "status": "Coming soon",
     "color": "purple",
     "icon": "grid",
     "description": "Record blood pressure and other health measurements, manage medication records and set reminders.",
-    "intro": "Keep manually entered health records together on your device. Blood Pressure Tracker is coming soon.",
+    "intro": "Keep manually entered health records together on your device. BP and Sugar Tracker is coming soon.",
     "features": [
       {
         "title": "Personal health records",
@@ -320,8 +320,8 @@ window.FT_APPS = [
     ],
     "note": "For recording and organizing health information. Not a replacement for professional medical advice, diagnosis or treatment.",
     "privacySummary": "Health records are stored locally. Optional exports, sharing and printing send chosen records to the destination you select. Read the policy for permissions and privacy choices.",
-    "privacyUrl": "/blood-pressure-tracker/privacy/",
-    "pageUrl": "/blood-pressure-tracker/",
+    "privacyUrl": "/bp-and-sugar-tracker/privacy/",
+    "pageUrl": "/bp-and-sugar-tracker/",
     "termsUrl": "/terms/",
     "storeUrl": "",
     "appStoreUrl": ""
