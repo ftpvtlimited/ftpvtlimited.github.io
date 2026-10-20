@@ -266,29 +266,29 @@ window.FT_APPS = [
   },
   {
     "id": "edge-glow-flash-alerts",
-    "name": "Edge Glow & Flash Alerts",
+    "name": "EdgeGlow & 3D Wallpaper",
     "category": "Personalization",
     "status": "Coming soon",
     "color": "purple",
     "icon": "grid",
-    "description": "Add edge glow and visual notification alerts with colors and per-app settings.",
-    "intro": "Personalize visual alerts with glow styles, colors and per-app rules. Edge Glow & Flash Alerts is coming soon.",
+    "description": "Personalize your screen with edge lighting, 3D wallpapers and notification effects.",
+    "intro": "Choose wallpapers, colors and lighting styles, with notification-responsive lighting and camera flash effects where supported.",
     "features": [
       {
-        "title": "Your glow style",
-        "text": "Choose colors, palettes and supported animation settings."
+        "title": "3D wallpapers",
+        "text": "Customize your screen with supported wallpapers and visual settings."
       },
       {
-        "title": "Per-app rules",
-        "text": "Configure visual notification behavior for individual apps where supported."
+        "title": "Edge lighting",
+        "text": "Choose colors and lighting styles for screen border and notification effects."
       },
       {
-        "title": "Local preferences",
-        "text": "Settings and notification-related processing are designed to remain on your device."
+        "title": "Flash notifications",
+        "text": "Use supported camera flash notification effects with the required Android permissions."
       }
     ],
-    "note": "Coming soon. Feature availability depends on Android version, device settings and the permissions you grant.",
-    "privacySummary": "Read about Notification Access, overlays, lock-screen alerts and local settings. The supplied policy describes a version without Internet permission or detected tracking SDKs.",
+    "note": "Feature availability depends on Android version, device settings and the permissions you grant.",
+    "privacySummary": "Core personalization and notification processing takes place locally. Google advertising, analytics, Firebase and billing services may process information when enabled. Read the full policy for details.",
     "privacyUrl": "/edge-glow-flash-alerts/privacy/",
     "pageUrl": "/edge-glow-flash-alerts/",
     "termsUrl": "/terms/",
