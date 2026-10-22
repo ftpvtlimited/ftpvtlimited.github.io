@@ -407,5 +407,84 @@ window.FT_APPS = [
     "termsUrl": "/terms/",
     "storeUrl": "",
     "appStoreUrl": ""
+  },
+  {
+    "id": "safecite",
+    "name": "SafeCite",
+    "category": "Tools & utilities",
+    "status": "Coming soon",
+    "color": "orange",
+    "icon": "grid",
+    "description": "Construction safety references and checklist resources.",
+    "intro": "Review construction safety information, OSHA-related reference materials and safety checklists.",
+    "features": [
+      {
+        "title": "App features",
+        "text": "Construction safety references and checklist resources."
+      },
+      {
+        "title": "Designed for your workflow",
+        "text": "Review construction safety information, OSHA-related reference materials and safety checklists."
+      }
+    ],
+    "privacySummary": "Local reference content and settings are separate from Google services that may process technical information when enabled.",
+    "pageUrl": "/safecite/",
+    "privacyUrl": "/safecite/privacy/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
+  },
+  {
+    "id": "gradebeam",
+    "name": "GradeBeam",
+    "category": "Tools & utilities",
+    "status": "Coming soon",
+    "color": "orange",
+    "icon": "grid",
+    "description": "A calculation utility for measurements, results and unit preferences.",
+    "intro": "Perform calculations and manage measurement inputs and local preferences.",
+    "features": [
+      {
+        "title": "App features",
+        "text": "A calculation utility for measurements, results and unit preferences."
+      },
+      {
+        "title": "Designed for your workflow",
+        "text": "Perform calculations and manage measurement inputs and local preferences."
+      }
+    ],
+    "privacySummary": "Core calculations run locally. Firebase Analytics and related Google services may process usage and technical information.",
+    "pageUrl": "/gradebeam/",
+    "privacyUrl": "/gradebeam/privacy/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
+  },
+  {
+    "id": "peptide-support",
+    "name": "Peptide Support",
+    "category": "Tools & utilities",
+    "status": "Coming soon",
+    "color": "orange",
+    "icon": "grid",
+    "description": "Organize personal tracking records, schedules and reminders.",
+    "intro": "Keep user-entered tracking information and reminder settings together on your device. Intended for adults aged 18 and older.",
+    "features": [
+      {
+        "title": "App features",
+        "text": "Organize personal tracking records, schedules and reminders."
+      },
+      {
+        "title": "Designed for your workflow",
+        "text": "Keep user-entered tracking information and reminder settings together on your device. Intended for adults aged 18 and older."
+      }
+    ],
+    "privacySummary": "Tracking records are handled locally. User-initiated sharing and external services follow their own privacy practices.",
+    "pageUrl": "/peptide-support/",
+    "privacyUrl": "/peptide-support/privacy/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": "",
+    "note": "For personal tracking and organization; not medical advice, diagnosis or treatment. Consult a qualified healthcare professional for treatment or dosage decisions."
   }
 ];
