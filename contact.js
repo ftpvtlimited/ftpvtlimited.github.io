@@ -355,5 +355,57 @@ window.FT_APPS = [
     "termsUrl": "/terms/",
     "storeUrl": "",
     "appStoreUrl": ""
+  },
+  {
+    "id": "pipecraft",
+    "name": "PipeCraft",
+    "category": "Tools & utilities",
+    "status": "Coming soon",
+    "color": "blue",
+    "icon": "grid",
+    "description": "Plumbing and piping calculations, project records and field measurements.",
+    "intro": "Calculate measurements and organize piping work with local records, selected photos, imports and exports.",
+    "features": [
+      {
+        "title": "Practical calculations",
+        "text": "Plumbing and piping calculations, project records and field measurements."
+      },
+      {
+        "title": "Records and preferences",
+        "text": "Calculate measurements and organize piping work with local records, selected photos, imports and exports."
+      }
+    ],
+    "privacySummary": "Working records are handled locally. Sharing, external document providers and support emails follow the practices explained in the policy.",
+    "pageUrl": "/pipecraft/",
+    "privacyUrl": "/pipecraft/privacy/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
+  },
+  {
+    "id": "hvac-field-calculator",
+    "name": "HVAC Field Calculator",
+    "category": "Tools & utilities",
+    "status": "Coming soon",
+    "color": "orange",
+    "icon": "grid",
+    "description": "HVAC calculations, remembered settings and saved calculation results.",
+    "intro": "Work with pressures, temperatures, airflow, dimensions and other HVAC inputs, and keep selected results on your device.",
+    "features": [
+      {
+        "title": "Practical calculations",
+        "text": "HVAC calculations, remembered settings and saved calculation results."
+      },
+      {
+        "title": "Records and preferences",
+        "text": "Work with pressures, temperatures, airflow, dimensions and other HVAC inputs, and keep selected results on your device."
+      }
+    ],
+    "privacySummary": "Saved calculation history is local. Google/Firebase services process analytics, diagnostics, notification and configuration information as explained in the policy.",
+    "pageUrl": "/hvac-field-calculator/",
+    "privacyUrl": "/hvac-field-calculator/privacy/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
   }
 ];
