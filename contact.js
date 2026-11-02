@@ -486,5 +486,57 @@ window.FT_APPS = [
     "storeUrl": "",
     "appStoreUrl": "",
     "note": "For personal tracking and organization; not medical advice, diagnosis or treatment. Consult a qualified healthcare professional for treatment or dosage decisions."
+  },
+  {
+    "id": "mizanora",
+    "name": "Mizanora",
+    "category": "Lifestyle",
+    "status": "Coming soon",
+    "color": "green",
+    "icon": "grid",
+    "description": "Prayer times, Qibla direction, Tasbih and everyday calculation tools.",
+    "intro": "Choose a city or optional location assistance for prayer and Qibla tools. Use Hijri dates, Zakat estimates, entered-rate currency calculations and saved records.",
+    "features": [
+      {
+        "title": "App features",
+        "text": "Prayer times, Qibla direction, Tasbih and everyday calculation tools."
+      },
+      {
+        "title": "Your settings and records",
+        "text": "Choose a city or optional location assistance for prayer and Qibla tools. Use Hijri dates, Zakat estimates, entered-rate currency calculations and saved records."
+      }
+    ],
+    "privacySummary": "Core utility records are handled locally. The policy explains location access, exports, support communications and planned future Google services.",
+    "pageUrl": "/mizanora/",
+    "privacyUrl": "/mizanora/privacy/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
+  },
+  {
+    "id": "harfoona",
+    "name": "Harfoona",
+    "category": "Education",
+    "status": "Coming soon",
+    "color": "purple",
+    "icon": "grid",
+    "description": "Explore letters, sounds, tracing and play with Arabic and Urdu learning content.",
+    "intro": "Use local learner profiles, saved progress and educational audio, with parent-managed settings and supported offline text-to-speech voices.",
+    "features": [
+      {
+        "title": "App features",
+        "text": "Explore letters, sounds, tracing and play with Arabic and Urdu learning content."
+      },
+      {
+        "title": "Your settings and records",
+        "text": "Use local learner profiles, saved progress and educational audio, with parent-managed settings and supported offline text-to-speech voices."
+      }
+    ],
+    "privacySummary": "Learner profiles and progress are stored locally. The policy explains audio, device speech services, parent controls and planned future Google integrations.",
+    "pageUrl": "/harfoona/",
+    "privacyUrl": "/harfoona/privacy/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
   }
 ];
