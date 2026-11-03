@@ -538,5 +538,36 @@ window.FT_APPS = [
     "termsUrl": "/terms/",
     "storeUrl": "",
     "appStoreUrl": ""
+  },
+  {
+    "id": "emoji-battery",
+    "name": "Emoji Battery",
+    "category": "Personalization",
+    "status": "Coming soon",
+    "color": "orange",
+    "icon": "grid",
+    "description": "Customize your battery display and status bar with emoji styles, stickers and animated pets.",
+    "intro": "Choose decorative battery icons, save styles and configure supported visibility rules and gesture shortcuts.",
+    "features": [
+      {
+        "title": "Battery and status-bar styles",
+        "text": "Choose icons, colors, sizes and supported display settings."
+      },
+      {
+        "title": "Animated pets",
+        "text": "Personalize your screen with supported pet decorations and movement settings."
+      },
+      {
+        "title": "Visibility and shortcuts",
+        "text": "Configure app-specific hiding rules and supported gesture shortcuts."
+      }
+    ],
+    "note": "Decorative battery effects are visual customizations and should not be relied on as measurements of battery capacity, health or charge.",
+    "privacySummary": "Customization settings use local storage. Google advertising, analytics, diagnostics and other services may process information online. Read the policy for Accessibility, overlays and privacy choices.",
+    "privacyUrl": "/emoji-battery/privacy/",
+    "pageUrl": "/emoji-battery/",
+    "termsUrl": "/terms/",
+    "storeUrl": "",
+    "appStoreUrl": ""
   }
 ];
