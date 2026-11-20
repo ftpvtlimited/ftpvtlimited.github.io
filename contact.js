@@ -183,13 +183,13 @@ window.FT_APPS = [
   },
   {
     "id": "lock-me",
-    "name": "Odometer",
+    "name": "Track your Drive - GPS Tracker",
     "category": "Mobile app",
     "status": "Coming soon",
     "color": "purple",
     "icon": "grid",
     "description": "A new app from FT PVT. LIMITED. More details coming soon.",
-    "intro": "Odometer is in preparation. Features and store availability will be announced here.",
+    "intro": "Track your Drive - GPS Tracker is in preparation. Features and store availability will be announced here.",
     "features": [
       {
         "title": "Coming soon",
