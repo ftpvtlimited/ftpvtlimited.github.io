@@ -6,3 +6,4 @@ facebook.com, 166645654086739, DIRECT, c3e20eee3f780d68
 applovin.com, d1e7775a00ff1d7b6ba6483e83677bf0, DIRECT
 vungle.com,6454ecf61aec7f0014e2266b,DIRECT,c107d686becd2d77
 mintegral.com, 36509, DIRECT, 0aeed750c80d6423
+pangleglobal.com,5009855,DIRECT
