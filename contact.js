@@ -197,7 +197,7 @@ window.FT_APPS = [
       }
     ],
     "privacySummary": "Review the app policy for location access, local settings, permissions and third-party services.",
-    "privacyUrl": "/lock-me/privacy/",
+    "privacyUrl": "/track-your-drive-gps-tracker/privacy/",
     "pageUrl": "/lock-me/",
     "termsUrl": "/terms/",
     "storeUrl": "",
